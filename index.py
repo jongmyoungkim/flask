@@ -11,9 +11,6 @@ app = Flask(__name__)
 def index():
     return 'index - hello, world!'
 
-
-
-
 @app.route('/hello/')
 @app.route('/hello/<name>')
 def hello(name=None):
