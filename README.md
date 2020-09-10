@@ -17,3 +17,8 @@ export FLASK_ENV=development
 flask run 
 
 deactivate 
+
+
+http://localhost:5000
+http://localhost:5000/hello
+http://localhost:5000/hello/jomy
