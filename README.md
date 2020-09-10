@@ -1,16 +1,14 @@
 # flask_hello
 learning flask
 
-# 우분투에서 설치하기
-https://linuxize.com/post/how-to-install-flask-on-ubuntu-18-04/
+# 인터넷 참조 사이트 - 핵심만 해보는 flask 튜토리얼
+https://wikidocs.net/78511
 
-# Flask Quick Start
-https://flask.palletsprojects.com/en/1.0.x/quickstart/#quickstart
 
 # 한번 설치 끝나고 재실행시 아래 명령어
 source venv/bin/activate  : (venv) 환경으로 들어가기 
 
-export FLASK_APP=index.py 
+export FLASK_APP=app.py 
 
 export FLASK_ENV=development 
 
@@ -21,6 +19,4 @@ deactivate
 
 http://localhost:5000
 
-http://localhost:5000/hello
 
-http://localhost:5000/hello/jomy
